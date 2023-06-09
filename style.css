@@ -1,0 +1,78 @@
+ body {
+    font-family: 'Press Start 2P', cursive;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+body {
+	background: white;
+	margin: 0;
+}
+
+h1 {
+    margin: 50px;
+}
+
+.board {
+    background-color: black;
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	gap: 10px;
+
+    width: 430px;
+    height: 229px;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(290deg, #02CCBA 0%, #AA7ECD 100%);
+  background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.5);
+}
+
+.card {
+	height: 100px;
+	background: #111111;
+	
+	cursor: pointer;
+
+
+    background: #2e3d49;
+  display: inline-block;
+
+  
+
+  vertical-align: top; 
+  cursor: pointer;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  border-radius: 8px;
+}
+
+ 
+    
+
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    margin: 50px;
+    border: none;
+    background-color: white;
+
+}
+
+
+button:hover {
+    color: white;
+    background-color: black;
+    cursor:pointer;
+}
+
